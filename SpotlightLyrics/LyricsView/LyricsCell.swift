@@ -24,6 +24,7 @@ internal class LyricsCell: UITableViewCell {
     }
     
     private func commitInit() {
+        let label = KaraokeLabel()
         lyricLabel = UILabel(frame: CGRect(x: 0, y: 0, width: bounds.width, height: bounds.height))
         lyricLabel.textAlignment = .center
         selectionStyle = .none
