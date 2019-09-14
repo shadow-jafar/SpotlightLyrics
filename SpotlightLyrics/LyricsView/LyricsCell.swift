@@ -11,7 +11,7 @@ import UIKit
 
 internal class LyricsCell: UITableViewCell {
     
-    private var lyricLabel: UILabel!
+    private var lyricLabel: VTKaraokeLyricLabel!
     
     public override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
@@ -24,8 +24,8 @@ internal class LyricsCell: UITableViewCell {
     }
     
     private func commitInit() {
-        let label = KaraokeLabel()
-        lyricLabel = UILabel(frame: CGRect(x: 0, y: 0, width: bounds.width, height: bounds.height))
+//        let label = KaraokeLabel()
+        lyricLabel = VTKaraokeLyricLabel(frame: CGRect(x: 0, y: 0, width: bounds.width, height: bounds.height))
         lyricLabel.textAlignment = .center
         selectionStyle = .none
         contentView.addSubview(lyricLabel)

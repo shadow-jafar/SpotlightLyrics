@@ -20,6 +20,8 @@
 		D4CE7EAD232CB8150070DA1B /* KaraokeLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = D4CE7EAB232CB8150070DA1B /* KaraokeLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D4CE7EAE232CB8150070DA1B /* KaraokeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CE7EAC232CB8150070DA1B /* KaraokeLabel.m */; };
 		D4CE7EB4232CC0E00070DA1B /* SpotlightLyrics.h in Headers */ = {isa = PBXBuildFile; fileRef = D4CE7EB3232CC0DD0070DA1B /* SpotlightLyrics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4CE7EE3232CCC820070DA1B /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CE7EE2232CCC820070DA1B /* Test.swift */; };
+		D4CE7EE5232CDBB60070DA1B /* VTKaraokeLyricLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CE7EE4232CDBB60070DA1B /* VTKaraokeLyricLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		D4CE7EAB232CB8150070DA1B /* KaraokeLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KaraokeLabel.h; sourceTree = "<group>"; };
 		D4CE7EAC232CB8150070DA1B /* KaraokeLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KaraokeLabel.m; sourceTree = "<group>"; };
 		D4CE7EB3232CC0DD0070DA1B /* SpotlightLyrics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpotlightLyrics.h; sourceTree = "<group>"; };
+		D4CE7EE2232CCC820070DA1B /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		D4CE7EE4232CDBB60070DA1B /* VTKaraokeLyricLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VTKaraokeLyricLabel.swift; path = SpotlightLyrics/VTKaraokeLyricLabel.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +80,9 @@
 			isa = PBXGroup;
 			children = (
 				1D079FD221B6608F00D21A8F /* LyricsView.swift */,
+				D4CE7EE4232CDBB60070DA1B /* VTKaraokeLyricLabel.swift */,
 				D4CE7EA8232CB4620070DA1B /* VTXKaraokeLyricView.h */,
+				D4CE7EE2232CCC820070DA1B /* Test.swift */,
 				D4CE7EA7232CB4620070DA1B /* VTXKaraokeLyricView.m */,
 				D4CE7EAB232CB8150070DA1B /* KaraokeLabel.h */,
 				D4CE7EAC232CB8150070DA1B /* KaraokeLabel.m */,
@@ -190,8 +196,10 @@
 				1D079FD721B6608F00D21A8F /* LyricsItem.swift in Sources */,
 				D4CE7EA9232CB4620070DA1B /* VTXKaraokeLyricView.m in Sources */,
 				1D079FD821B6608F00D21A8F /* LyricsHeader.swift in Sources */,
+				D4CE7EE5232CDBB60070DA1B /* VTKaraokeLyricLabel.swift in Sources */,
 				1D079FDA21B6608F00D21A8F /* LyricsCellViewModel.swift in Sources */,
 				1D079FD621B6608F00D21A8F /* LyricsParser.swift in Sources */,
+				D4CE7EE3232CCC820070DA1B /* Test.swift in Sources */,
 				1D079FDB21B6608F00D21A8F /* LyricsView.swift in Sources */,
 				1D079FDC21B6608F00D21A8F /* LyricsCell.swift in Sources */,
 				D4CE7EAE232CB8150070DA1B /* KaraokeLabel.m in Sources */,

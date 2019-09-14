@@ -17,7 +17,6 @@ FOUNDATION_EXPORT double SpotlightLyricsVersionNumber;
 //! Project version string for NVMDummy.
 FOUNDATION_EXPORT const unsigned char SpotlightLyricsVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <NVMDummy/PublicHeader.h>
 #import <SpotlightLyrics/KaraokeLabel.h>
 #import <SpotlightLyrics/VTXKaraokeLyricView.h>
 
