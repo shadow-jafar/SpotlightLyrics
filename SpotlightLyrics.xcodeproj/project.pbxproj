@@ -19,7 +19,7 @@
 		D4CE7EAA232CB4620070DA1B /* VTXKaraokeLyricView.h in Headers */ = {isa = PBXBuildFile; fileRef = D4CE7EA8232CB4620070DA1B /* VTXKaraokeLyricView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D4CE7EAD232CB8150070DA1B /* KaraokeLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = D4CE7EAB232CB8150070DA1B /* KaraokeLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D4CE7EAE232CB8150070DA1B /* KaraokeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CE7EAC232CB8150070DA1B /* KaraokeLabel.m */; };
-		D4CE7EB0232CB8350070DA1B /* SpotlightLyrics-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = D4CE7EAF232CB8350070DA1B /* SpotlightLyrics-Header.h */; };
+		D4CE7EB0232CB8350070DA1B /* SpotlightLyrics-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = D4CE7EAF232CB8350070DA1B /* SpotlightLyrics-Bridging-Header.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,7 +37,7 @@
 		D4CE7EA8232CB4620070DA1B /* VTXKaraokeLyricView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VTXKaraokeLyricView.h; path = SpotlightLyrics/VTXKaraokeLyricView.h; sourceTree = SOURCE_ROOT; };
 		D4CE7EAB232CB8150070DA1B /* KaraokeLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KaraokeLabel.h; sourceTree = "<group>"; };
 		D4CE7EAC232CB8150070DA1B /* KaraokeLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KaraokeLabel.m; sourceTree = "<group>"; };
-		D4CE7EAF232CB8350070DA1B /* SpotlightLyrics-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpotlightLyrics-Header.h"; sourceTree = "<group>"; };
+		D4CE7EAF232CB8350070DA1B /* SpotlightLyrics-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpotlightLyrics-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +82,7 @@
 				D4CE7EAC232CB8150070DA1B /* KaraokeLabel.m */,
 				1D3C8B1121BA7BB10020933A /* LyticsViewTimer.swift */,
 				1D079FD121B6608F00D21A8F /* LyricsCellViewModel.swift */,
-				D4CE7EAF232CB8350070DA1B /* SpotlightLyrics-Header.h */,
+				D4CE7EAF232CB8350070DA1B /* SpotlightLyrics-Bridging-Header.h */,
 				1D079FD321B6608F00D21A8F /* LyricsCell.swift */,
 			);
 			path = LyricsView;
@@ -111,7 +111,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4CE7EB0232CB8350070DA1B /* SpotlightLyrics-Header.h in Headers */,
+				D4CE7EB0232CB8350070DA1B /* SpotlightLyrics-Bridging-Header.h in Headers */,
 				D4CE7EAD232CB8150070DA1B /* KaraokeLabel.h in Headers */,
 				D4CE7EAA232CB4620070DA1B /* VTXKaraokeLyricView.h in Headers */,
 			);
@@ -335,7 +335,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jayasme.spotlight-lyrics";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/jafarkhan/Documents/Project/Reference/SpotlightLyrics/SpotlightLyrics/LyricsView/SpotlightLyrics-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/jafarkhan/Documents/Project/Reference/SpotlightLyrics/SpotlightLyrics/LyricsView/SpotlightLyrics-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 			};
@@ -356,7 +356,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jayasme.spotlight-lyrics";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/jafarkhan/Documents/Project/Reference/SpotlightLyrics/SpotlightLyrics/LyricsView/SpotlightLyrics-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/jafarkhan/Documents/Project/Reference/SpotlightLyrics/SpotlightLyrics/LyricsView/SpotlightLyrics-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
