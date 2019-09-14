@@ -15,6 +15,8 @@
 		1D079FDB21B6608F00D21A8F /* LyricsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D079FD221B6608F00D21A8F /* LyricsView.swift */; };
 		1D079FDC21B6608F00D21A8F /* LyricsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D079FD321B6608F00D21A8F /* LyricsCell.swift */; };
 		1D3C8B1221BA7BB10020933A /* LyticsViewTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3C8B1121BA7BB10020933A /* LyticsViewTimer.swift */; };
+		D4CE7EA9232CB4620070DA1B /* VTXKaraokeLyricView.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CE7EA7232CB4620070DA1B /* VTXKaraokeLyricView.m */; };
+		D4CE7EAA232CB4620070DA1B /* VTXKaraokeLyricView.h in Headers */ = {isa = PBXBuildFile; fileRef = D4CE7EA8232CB4620070DA1B /* VTXKaraokeLyricView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		1D079FD321B6608F00D21A8F /* LyricsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LyricsCell.swift; sourceTree = "<group>"; };
 		1D3C8B1121BA7BB10020933A /* LyticsViewTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyticsViewTimer.swift; sourceTree = "<group>"; };
 		1DEA77031F259A6C00C1040B /* SpotlightLyrics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SpotlightLyrics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4CE7EA7232CB4620070DA1B /* VTXKaraokeLyricView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VTXKaraokeLyricView.m; path = SpotlightLyrics/VTXKaraokeLyricView.m; sourceTree = SOURCE_ROOT; };
+		D4CE7EA8232CB4620070DA1B /* VTXKaraokeLyricView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VTXKaraokeLyricView.h; path = SpotlightLyrics/VTXKaraokeLyricView.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 			isa = PBXGroup;
 			children = (
 				1D079FD221B6608F00D21A8F /* LyricsView.swift */,
+				D4CE7EA8232CB4620070DA1B /* VTXKaraokeLyricView.h */,
+				D4CE7EA7232CB4620070DA1B /* VTXKaraokeLyricView.m */,
 				1D3C8B1121BA7BB10020933A /* LyticsViewTimer.swift */,
 				1D079FD121B6608F00D21A8F /* LyricsCellViewModel.swift */,
 				1D079FD321B6608F00D21A8F /* LyricsCell.swift */,
@@ -96,6 +102,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4CE7EAA232CB4620070DA1B /* VTXKaraokeLyricView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,7 +138,7 @@
 				TargetAttributes = {
 					1DEA77021F259A6C00C1040B = {
 						CreatedOnToolsVersion = 8.3.3;
-						LastSwiftMigration = 1010;
+						LastSwiftMigration = 1030;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -141,6 +148,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 1DEA76F91F259A6C00C1040B;
@@ -169,6 +177,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D079FD721B6608F00D21A8F /* LyricsItem.swift in Sources */,
+				D4CE7EA9232CB4620070DA1B /* VTXKaraokeLyricView.m in Sources */,
 				1D079FD821B6608F00D21A8F /* LyricsHeader.swift in Sources */,
 				1D079FDA21B6608F00D21A8F /* LyricsCellViewModel.swift in Sources */,
 				1D079FD621B6608F00D21A8F /* LyricsParser.swift in Sources */,
